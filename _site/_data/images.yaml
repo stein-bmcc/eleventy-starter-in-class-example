@@ -1,0 +1,21 @@
+- src: '/images/joshua-oyebanji-_1n2WLBhFlo-unsplash.jpg'
+  credit: Photo by <a href="https://unsplash.com/@thejoshb_snap1?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Joshua Oyebanji</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  title: 'Black Girl Magic'
+  date: April 16, 2021
+  location: Lagos, Nigeria
+  description: Black woman with elaborate wig and fur.
+  tags: woman, fashion, black,nigeria
+- src: /images/patrick-jansen-G-S5hYka7ug-unsplash.jpg
+  credit: Photo by <a href="https://unsplash.com/@patrickj95?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Patrick Jansen</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  title: Going to the sun
+  date: April 17, 2021
+  location: unknown
+  description: Sea turtle swimming to the surface.
+  tags: sea, turtle, sun
+- src: /images/martin-olsson-Y76lggoe96c-unsplash.jpg
+  credit: Photo by <a href="https://unsplash.com/@martinnolsson?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Martin Olsson</a> on <a href="https://unsplash.com/t/architecture?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  title: The Vessel
+  date: December 21, 2020
+  location: Hudson Yards, New York, NY 
+  description: The Vessel seen from above.
+  tags: nyc, new york, architecture
