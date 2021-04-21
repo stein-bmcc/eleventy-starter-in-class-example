@@ -1,7 +1,7 @@
 {
-  "name": "Bootstrap Starter",
+  "name": "In Class Example Plain Starter",
   "version": "1.0.0",
-  "description": "This is a base starter eleventy repository with Bootstrap 5.0",
+  "description": "this is what we used in class to give an example.",
   "scripts": {
     "start": "eleventy --serve --quiet"
   },
