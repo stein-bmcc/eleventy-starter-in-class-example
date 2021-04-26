@@ -1,1 +1,30 @@
 /* You can add your CUSTOM CSS HERE */
+
+/* Typography */
+body{
+    font-family: fantasy;
+  }
+  h2{
+    font-family: sans-serif;
+  }
+  
+  /* Homepage */
+  /* philosophy section */
+  
+  .philosophy{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  
+  .mission{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+  }
+  
+  .mission h2, .missionDescription{
+    grid-column: span 3;
+    text-align: center;
+  }
+  
+  
