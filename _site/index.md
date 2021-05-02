@@ -42,11 +42,37 @@ tags:
   </section>
   
   <section class="blog">
-    
+    <h2>Blog</h2>
+    <ul>
+    {%- for post in collections.post -%}
+      <li><a href="{{ post.url }}">{{ post.data.title }}</a>
+        <p>{{ post.data.summary}}</p>
+      </li>
+    {%- endfor -%}
+    </ul>
+
+
+  <h2>Blog Again</h2>
+   <ul>
+    {%- for post in collections.articles -%}
+      <li><a href="{{ post.url }}">{{ post.data.title }}</a>
+        <p>{{ post.data.summary}}</p>
+      </li>
+    {%- endfor -%}
+    </ul>
   </section>
   
   <section class="join">
-    
+    <h2>People</h2>
+    <ul>
+    {%- for person in collections.person -%}
+      <li><a href="{{ person.url }}">{{ person.data.fullname }}</a>
+        <p>Age: {{ person.data.age}}
+        <br>
+        Location: {{person.data.location}}</p>
+      </li>
+    {%- endfor -%}
+    </ul>
   </section>
 </main>
 

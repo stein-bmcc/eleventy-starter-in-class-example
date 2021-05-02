@@ -8,6 +8,7 @@ tags:
     - male
     - NYC
     - BMCC
+    - person
 ---
 
 # {{fullname}}

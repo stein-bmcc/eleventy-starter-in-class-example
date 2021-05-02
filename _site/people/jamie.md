@@ -4,10 +4,12 @@ age: 19
 pronouns: they/them
 location: NYC
 layout: base
+title: jamiels personal page
 tags:
     - nonbinary
     - NYC
     - BMCC
+    - person
 ---
 
 # {{fullname}}

@@ -8,6 +8,7 @@ tags:
     - female
     - NYC
     - BMCC
+    - person
 ---
 
 

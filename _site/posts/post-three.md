@@ -4,6 +4,7 @@ date: Created
 layout: base
 author: Jamie
 summary: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae mollitia, sapiente architecto sit quo deserunt libero nesciunt repellat praesentium. Autem nam obcaecati dolore incidunt possimus ullam quibusdam sunt deleniti aut."
+tags: ["post", "another"]
 ---
 
 # {{title}}
