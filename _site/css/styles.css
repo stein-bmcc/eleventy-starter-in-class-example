@@ -2,7 +2,7 @@
 
 /* Typography */
 body{
-    font-family: fantasy;
+    font-family: sans-serif;
   }
   h2{
     font-family: sans-serif;
@@ -27,4 +27,13 @@ body{
     text-align: center;
   }
   
+
+  /* Fields grid */
+.fields{
+  display:grid;
+  grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+  grid-gap: 15px;
+}
   
+  /* Leaflet Map CSS */
+  #mapid { height: 500px; }

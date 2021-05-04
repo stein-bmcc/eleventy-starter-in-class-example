@@ -1,4 +1,5 @@
 const yaml = require('js-yaml');
+// const Convert = require('multipolygon-to-js-array');
 const { DateTime } = require('luxon');
 const eleventyNavigationPlugin = require('@11ty/eleventy-navigation')
 
@@ -41,6 +42,32 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addFilter('limit', (array, qty) => (qty < 0 ? array.slice(qty): array.slice(0, qty)))
 
   eleventyConfig.addPlugin(eleventyNavigationPlugin)
+
+    //allows logging eleventy to console
+  eleventyConfig.addFilter('log', value => {
+      console.log("11ty",value);
+      return JSON.stringify(value);
+  })
+  eleventyConfig.addFilter('convertPoly', multipoly => {
+    // return "works"
+
+    const array = [];
+
+    let str = multipoly.replace('MULTIPOLYGON (((', '');
+    str = str.replace(')))');
+
+    const splittedCommaArray = str.split(', ');
+
+    splittedCommaArray.map((splittedComma) => {
+      const coordinate = splittedComma.split(' ');
+      //flip coordinates since they are in wrong lat/lon order
+      // return array.push([parseFloat(coordinate[0]), parseFloat(coordinate[1])]);
+      return array.push([parseFloat(coordinate[1]), parseFloat(coordinate[0])]);
+    });
+
+  return array;
+  })
+
 
 
   return {
