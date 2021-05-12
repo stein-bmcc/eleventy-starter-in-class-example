@@ -58,57 +58,22 @@ $(document).ready(function() {
         console.log("An error has occurred.");
     });
 });
-//end document ready
+//end document ready                    
 
+// Leaflet example
+var mymap = L.map('mapid').setView([40.718041, -74.012119], 13);
+// var mymap = L.map('mapid').setView([51.505, -0.09], 13);
+var Stadia_OSMBright = L.tileLayer('https://tiles.stadiamaps.com/tiles/osm_bright/{z}/{x}/{y}{r}.png', {
+	maxZoom: 20,
+	attribution: '&copy; <a href="https://stadiamaps.com/">Stadia Maps</a>, &copy; <a href="https://openmaptiles.org/">OpenMapTiles</a> &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors'
+});
+Stadia_OSMBright.addTo(mymap);
 
+var circle = L.circle([40.718041, -74.012119], {
+    color: 'red',
+    fillColor: '#f03',
+    fillOpacity: 0.5,
+    radius: 500
+}).addTo(mymap);
 
-// for(let i = 0; i < facilities.length; i++){
-//     // console.log(facilities.data[i][8]);
-//     if(facilities[i][41] == "SCR"){
-//         // console.log(facilities[i][41]);
-//         let poly = convertPoly(facilities[i][8]);
-//         console.log(poly);
-//     }
-// }
-
-
-
-
-
-
-
-
-//JS For Leaflet Map
-
- // var mymap = L.map('mapid').setView([51.505, -0.09], 13);
-//  let map = L.map("mapid", {center: [40.72992, -74.00114], zoom: 10});
-//  L.tileLayer(
-//      "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", 
-//      {attribution: '&copy; <a href="http://' + 
-//      'www.openstreetmap.org/copyright">OpenStreetMap</a>'}
-//  ).addTo(map);
-
-//  var Stadia_OSMBright = L.tileLayer('https://tiles.stadiamaps.com/tiles/osm_bright/{z}/{x}/{y}{r}.png', {
-// 	maxZoom: 20,
-// 	attribution: '&copy; <a href="https://stadiamaps.com/">Stadia Maps</a>, &copy; <a href="https://openmaptiles.org/">OpenMapTiles</a> &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors'
-// });
-// Stadia_OSMBright.addTo(map);
-
-//  console.log(facilities[0].data);
-
-//  const fetch = require('node-fetch');
-
-//  const allFacilities = fetch('https://data.cityofnewyork.us/api/views/9wwi-sb8x/rows.json')
-//                             .then(res => res.json())
-//                             .then(json => {
-//                                 return { json }
-//                             });
-
-                            // $.getJSON("https://data.cityofnewyork.us/api/views/9wwi-sb8x/rows.json", function(data){
-                            //     console.log("data",data); 
-                            // }).fail(function(){
-                            //     console.log("An error has occurred.");
-                            // });
-// console.log(allFacilities);
-                          
-
+circle.bindPopup("<b>Hello world!</b><br>I am a popup.I am a circle.");
