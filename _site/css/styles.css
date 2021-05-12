@@ -26,6 +26,21 @@ body{
     grid-column: span 3;
     text-align: center;
   }
+
+
+  /* Basic Responsive Images and Video */
+img,video{
+  width: auto; 
+  height: auto;
+  max-width: 100%; 
+}
+
+/* Show Flickr Images */
+#images{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 1rem;
+}
   
 
   /* Fields grid */
