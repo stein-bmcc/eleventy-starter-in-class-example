@@ -57,3 +57,20 @@ img,video{
   grid-template-columns: 1fr 1fr;
   grid-gap: 1rem;
 }
+
+/* =======
+single image page styling
+======= */
+.prev-next{
+  display:flex;
+  justify-content: space-between;
+}
+
+.gallery-list ul{
+  list-style-type: none;
+}
+.gallery-list li{
+  list-style-type: none;
+  display: inline-block;
+  margin-right: 15px;
+}
