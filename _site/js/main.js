@@ -12,7 +12,7 @@ console.log("Logging from main.js, it was loaded.");
     })
       .done(function( data ) {
         $.each( data.items, function( i, item ) {
-          console.log(item);
+          // console.log(item);
           // $( "<img>" ).attr( "src", item.media.m ).appendTo( "#images" );
           
           // $("#images").append($( "<img>" ).attr( "src", item.media.m ));

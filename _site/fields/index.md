@@ -2,6 +2,7 @@
 title: NYC Soccer Fields
 layout: base
 hasmap: true
+fieldmap: true
 eleventyNavigation:
     key: fields
     parent: main
@@ -9,11 +10,11 @@ eleventyNavigation:
 ---
 
 # {{title}}
-<!-- {{ facilities.meta | log}} -->
+
 {% if facilities %}
-<!-- {{ facilities.info.data | log}} -->
+<!-- fields -->
 {% else %}
-    no fields
+    <!-- no fields -->
 {% endif %}
 
 <div class="fields">
