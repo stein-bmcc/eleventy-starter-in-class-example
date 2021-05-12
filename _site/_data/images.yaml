@@ -1,10 +1,38 @@
+- src: '/images/jennifer-marquez-WW-TIGWKCyc-unsplash.jpg'
+  credit: Photo by <a href="https://unsplash.com/@jamscreativephotography?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jennifer Marquez</a> on <a href="https://unsplash.com/@jamscreativephotography?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  title: Full Bloom
+  date: April 10, 2021
+  location: unknown
+  description: Portrait of a person with decorative eye makeup behind branches with yellow blossoms.
+  tags: fashion, portrait, yellow
+- src: "/images/jiangxulei1990-U3G3ed8-BT4-unsplash.jpg"
+  credit: Photo by <a href="https://unsplash.com/@jiangxulei1990?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">青 晨</a> on <a href="https://unsplash.com/@jiangxulei1990?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  title: Did I do that?
+  date: July 24, 2018
+  location: unknown
+  description: Person smiling with hand covering half of their face.
+  tags: portrait, dark
+- src: /images/artyom-kim-gzaXICn5P8o-unsplash.jpg
+  credit: Photo by <a href="https://unsplash.com/@nezelenoe?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Artyom Kim</a> on <a href="https://unsplash.com/@nezelenoe?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  title: Fan of flowers
+  date: November 3, 2018
+  location: unknown
+  description: Portrait of person with flowers in front of their face.
+  tags: portrait, flowers
+- src: "/images/shingi-rice-9qzwgBYdrgE-unsplash.jpg"
+  credit: Photo by <a href="https://unsplash.com/@bluespit?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Shingi Rice</a> on <a href="https://unsplash.com/@bluespit?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  title: Just being me
+  date: August 11, 2020
+  location: unknown
+  description: Portait of person with hands on back of head
+  tags: portrait, freckles
 - src: '/images/joshua-oyebanji-_1n2WLBhFlo-unsplash.jpg'
   credit: Photo by <a href="https://unsplash.com/@thejoshb_snap1?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Joshua Oyebanji</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
   title: 'Black Girl Magic'
   date: April 16, 2021
   location: Lagos, Nigeria
-  description: Black woman with elaborate wig and fur.
-  tags: woman, fashion, black,nigeria
+  description: Portrait of a person with elaborate wig and fur.
+  tags: fashion, nigeria, portrait, wig
 - src: /images/patrick-jansen-G-S5hYka7ug-unsplash.jpg
   credit: Photo by <a href="https://unsplash.com/@patrickj95?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Patrick Jansen</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
   title: Going to the sun
@@ -12,10 +40,17 @@
   location: unknown
   description: Sea turtle swimming to the surface.
   tags: sea, turtle, sun
+- src: /images/felipe-bustillo-ekmzc24FVRM-unsplash.jpg
+  credit: Photo by <a href="https://unsplash.com/@pipe_fx?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Felipe Bustillo</a> on <a href="https://unsplash.com/@pipe_fx?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  title: In the City
+  description: portrait of man on city street with reflection in puddle
+  date: October 19, 2018
+  location: unknown
+  tags: street,portrait,reflection, man
 - src: /images/martin-olsson-Y76lggoe96c-unsplash.jpg
   credit: Photo by <a href="https://unsplash.com/@martinnolsson?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Martin Olsson</a> on <a href="https://unsplash.com/t/architecture?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
   title: The Vessel
   date: December 21, 2020
   location: Hudson Yards, New York, NY 
-  description: The Vessel seen from above.
+  description: The Vessel in NYC as seen from above.
   tags: nyc, new york, architecture
