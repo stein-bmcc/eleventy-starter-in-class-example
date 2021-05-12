@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "this is what we used in class to give an example.",
   "scripts": {
-    "build": "run-s clean eleventy:prod",
+    "build": "eleventy",
     "start": "eleventy --serve --quiet"
   },
   "author": "Chris Stein",
